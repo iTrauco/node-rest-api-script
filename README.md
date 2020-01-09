@@ -3,7 +3,7 @@
 > results, and deletes a given user by name.
 
 > This script was created to better understand garbage collection, command line styling, and make requests 
-> to an external API based on the arguments passed to the command by users. 
+> to an external API based from end user provided arguments. 
 
 <p align="center">
   <img src="https://github.com/iTrauco/node-rest-api-script/blob/master/public/2020-01-09%2017.21.48.gif">
