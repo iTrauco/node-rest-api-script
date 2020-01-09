@@ -1,0 +1,30 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "description": "Node.JS POC script to get a list of users, filter the results, and deletes the user. ",
+  "main": "dist/cli.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && babel src -d dist",
+    "start": "node dist/cli.js"
+  },
+  "bin": {
+    "poc": "dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "LSC",
+  "dependencies": {
+    "@babel/runtime": "7.4.5",
+    "axios": "0.19.0",
+    "meow": "5.0.0",
+    "ora": "3.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@babel/plugin-transform-runtime": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "rimraf": "2.6.3"
+  }
+}
