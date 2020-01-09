@@ -1,7 +1,7 @@
 {
   "name": "poc",
   "version": "1.0.0",
-  "description": "Node.JS POC script to get a list of users, filter the results, and deletes the user. ",
+  "description": "Node.JS POC script to make a GET API reuqest for employees, filter the results, and delete the user. ",
   "main": "dist/cli.js",
   "scripts": {
     "clean": "rimraf dist",

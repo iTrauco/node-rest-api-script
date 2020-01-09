@@ -1,14 +1,17 @@
 # poc
-> A CLI tool that makes a REST request to get a list of users, filters the
-> result and deletes a given user by name.
+> A Node.js CLI tool that makes a REST request to get a list of employees, filters the
+> result, and deletes a given user by name.
 
 [Dummy Employee Data API](https://itrau.co/DummyAPI)
 
+## Requirements
+[NodeJS](https://nodejs.org/en/)
+> Tested on macOS and Linux(Ubuntu/CentOS)
+> Git 
+> npm(Bundled w/ Node)
 
-## Prerequisites
-- [NodeJS](https://nodejs.org/en/)
+### Usage
 
-## Usage
 ```bash
 $ poc [username]
 ```
@@ -18,6 +21,11 @@ $ poc "John Doe"
 ```
 
 ## Installation
+Clone this repo
+```
+git clone https://github.com/iTrauco/node-rest-api-script
+```
+
 `cd` into project directory
 ```
 cd poc
